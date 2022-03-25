@@ -327,6 +327,7 @@ oolo00 .page-menu {
 }
 
 .main-btn:hover a {
+
   color:  #023047;
 }
 
@@ -358,7 +359,7 @@ oolo00 .page-menu {
 .hero-image {
   width: 100%;
   height: 630px;
-  background-image: url('../images/app/app4/1.png');
+  background-image: url('../images/app/app6/1.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -955,7 +956,7 @@ footer {
     10. RESPONSIVE
 -------------------------------------------------------------*/
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (max-width:  480px) {
+@media only screen and (max-width: 480px) {
   .menu {
     background-color: #fff;
     width: 100%;
@@ -1059,13 +1060,6 @@ footer {
   }
 }
 
-.appartment-image img {
-  position: absolute;
-  bottom: 30px;
-}
-
-
-
 @media only screen and (max-width: 480px) {
   .hero-image {
     width: 100%;
@@ -1103,7 +1097,7 @@ footer {
   }
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 480px) {
   .info p {
     font-size: 14px;
   }
@@ -1122,7 +1116,7 @@ footer {
   }
 }
 
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 480px) {
   .footer-bottom {
     text-align: center;
   }
@@ -1133,7 +1127,7 @@ footer {
   }
 }
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width:480px) {
   .info p {
     font-size: 12px;
   }
@@ -1159,7 +1153,7 @@ footer {
   }
 }
 
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 480px) {
   .info p {
     font-size: 12px;
   }
@@ -1183,7 +1177,7 @@ footer {
   }
 }
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 480px) {
   .title {
     top: 22vh;
   }
