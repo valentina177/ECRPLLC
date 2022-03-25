@@ -316,8 +316,12 @@ oolo00 .page-menu {
   transition: 0.4s all;
 }
 
+.main-btnn a {
+  font-weight: bold;
+}
+
 .main-btn:hover {
-  background-color: transparent;
+  background-color: rgb(255, 222, 89);
   color: #FFCC01;
   border: 1px solid #FFCC01;
 }
@@ -325,6 +329,8 @@ oolo00 .page-menu {
 .main-btn:hover a {
   color:  #023047;
 }
+
+
 
 .page-menu li {
   padding: 8px;
@@ -352,7 +358,7 @@ oolo00 .page-menu {
 .hero-image {
   width: 100%;
   height: 630px;
-  background-image: url('../images/app/app6/1.png');
+  background-image: url('../images/app/app4/1.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -760,9 +766,8 @@ oolo00 .page-menu {
 }
 
 .main-btnn:hover {
-  background-color: transparent;
-  color: #FFCC01;
-  border: 1px solid #FFCC01;
+  background-color: rgb(255, 222, 89);
+
 }
 
 .main-btnn:hover a {
@@ -950,7 +955,7 @@ footer {
     10. RESPONSIVE
 -------------------------------------------------------------*/
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width:  480px) {
   .menu {
     background-color: #fff;
     width: 100%;
@@ -1053,6 +1058,8 @@ footer {
     text-align: center;
   }
 }
+
+
 
 @media only screen and (max-width: 768px) {
   .hero-image {
