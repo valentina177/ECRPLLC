@@ -956,7 +956,7 @@ footer {
     10. RESPONSIVE
 -------------------------------------------------------------*/
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 992px) {
   .menu {
     background-color: #fff;
     width: 100%;
@@ -970,7 +970,6 @@ footer {
     -moz-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
   }
-
   .page-menu {
     width: 100%;
     height: 50vh;
@@ -979,12 +978,10 @@ footer {
     display: flex;
     flex-direction: column;
   }
-
   .page-menu li {
     font-size: 15pt;
     padding: 1.5vh;
   }
-
   .registration {
     float: none;
     width: 100%;
@@ -995,34 +992,29 @@ footer {
     text-align: center;
     padding-bottom: 5vh;
   }
-
   .join-us {
     width: 100%;
     text-align: center;
     height: 0px;
     margin-top: 30px;
   }
-
   .join-us li {
     width: 100%;
     text-align: center;
   }
-
   .menu-button {
     width: 40px;
     height: 40px;
     display: block;
     margin-top: 26px;
   }
-
   .menu-button span {
     width: 40px;
     height: 5px;
-    background-color:  #023047;
+    background-color: #1F373D;
     display: block;
     margin: 6px 0px;
   }
-
   .main-btn {
     width: 100%;
     background-color: #FFCC01;
@@ -1033,173 +1025,137 @@ footer {
     border: 1px solid #FFCC01;
     transition: 0.4s all;
   }
-
   .statistic-box:nth-child(1) {
     float: left;
-    margin-top: 50px;
+    margin-top:50px;
   }
-
   .statistic-box:nth-child(2) {
-    margin-top: 50px;
+    margin-top:50px;
   }
-
   .statistic-box:nth-child(3) {
     float: left;
   }
-
   .search-appartments {
     width: 300px;
   }
-
   .search-all-btn {
     width: 30%;
   }
-
   .how-it-works {
     text-align: center;
   }
 }
-
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
   .hero-image {
     width: 100%;
   }
-
   .info {
     margin: 0px 10px;
   }
-
   h1 {
     font-size: 45px;
   }
-
   .search-appartments {
     width: 270px;
   }
-
   .search-all-btn {
     width: 37%;
     margin-left: 10px;
   }
-
   .work-service-image {
     max-height: 630px;
     left: 0px;
     margin-bottom: 50px;
   }
-
   .footer-logo h4 {
     float: left;
   }
-
   .footer-logo p {
     float: right;
   }
 }
-
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 650px) {
   .info p {
     font-size: 14px;
   }
-
   .hero-image-info {
     right: 40px;
   }
-
   .title {
     top: 17vh;
   }
-
   .search-all-btn {
     width: 40%;
     margin-left: 5px;
   }
 }
-
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 575px) {
   .footer-bottom {
     text-align: center;
   }
-
   .footer-column a {
     display: list-item;
     list-style: none;
   }
 }
-
-@media only screen and (max-width:480px) {
+@media only screen and (max-width: 540px) {
   .info p {
     font-size: 12px;
   }
-
   .hero-image-info {
     width: 90%;
   }
-
   .search {
     width: 400px;
   }
-
   .search-appartments {
     width: 80%;
     margin: 0 auto;
     margin-top: 30px;
   }
-
   .search-all-btn {
     width: 80%;
     margin: 0px 10%;
     margin-top: 15px;
   }
 }
-
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 470px) {
   .info p {
     font-size: 12px;
   }
-
   .hero-image-info {
     right: 30px;
     width: 91%;
   }
-
   .hero-image-info p {
     padding: 5px 5px;
     font-size: 11px;
   }
-
   .search {
     width: 300px;
   }
-
   .search-all-btn {
     width: 80%;
   }
 }
-
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 380px) {
   .title {
     top: 22vh;
   }
-
   .search {
     width: 250px;
   }
-
   .search-btn {
     width: 30%;
   }
-
   .search-all-btn {
     width: 80%;
   }
-
   .search input {
     width: 70%;
     font-size: 12px;
     padding: 27px 40px;
   }
-
   .info img {
     display: none;
   }
