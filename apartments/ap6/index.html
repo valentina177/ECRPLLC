@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Metas -->
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Graphberry" />
+  <!-- Links -->
+  <link rel="icon" type="image/png" href="images/ecrpllc.svg" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+  <link href="../../css/style.css" rel="stylesheet" />
+  <script type="text/javascript" src="gallery.js"></script>
+  <!-- Document Title -->
+  <title>East Coast Realty Partners LLC</title>
+</head>
+
+<body>
+  <!------------------------------------------------ HEADER SECTION -->
+  <header id="home">
+    <nav class="animate">
+      <div class="container">
+        <div class="logo left">
+          <!-- Logo -->
+          <a href="../../index.html#home"><img src="images/ecrpllc.svg" alt="logo"></a>
+
+        </div>
+        <div class="menu-button hide right pointer">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu left">
+          <div class="page-menu left">
+            <!-- Navigation -->
+
+            <li><a href="../../index.html#home">Home</a></li>
+            <li><a href="../../index.html#about">About Us</a></li>
+            <li><a href="../../index.html#appartments">Appartment</a></li>
+            <li><a href="../../index.html#services">Services</a></li>
+            <li><a href="../../index.html#agents">Agents</a></li>
+            <li><a href="../../index.html#emailus">Email Us</a></li>
+          </div>
+          <div class="registration flexx-center">
+            <div class="join-us">
+              <!-- Join Us Button -->
+              <li class="pointer animate"><a href="https://www.zillow.com/profile/lionell6">Zillow</a></li>
+            </div>
+            <div class="getting-started">
+              <!-- Get Started Button -->
+              <li class="main-btn pointer text-center animate"><a href="mailto:someone@example.com">Contact Us</a></li>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!------------------------------------------------ STATISTIC SECTION -->
+  <section class="statistic" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-14 col-lg-6 statistic-wrapper">
+          <div class="rectangle"></div>
+          <div class="slideshow">
+            <a href="#" class="slide-back" onclick="slideshowBack(); return false;">
+              <img src="images/arrow_back.svg" alt="back">
+            </a>
+            <!--  Place the first image here  -->
+            <img src="images/1.png" style="height: 500px;width: 600px; object-fit: cover; object-position: 10% 0;" alt="placeholder" class="img-responsive" id="slide_show">
+            <a href="#" class="slide-next" onclick="slideshowUp(); return false;">
+              <img src="images/arrow_forward.svg" alt="next"></a>
+          </div>
+
+        </div>
+
+
+        <div class="col-13 col-lg-6">
+          <h3>Description<br></h3>
+          <p>Step into this heavenly unit, European style décor, 2 full bedrooms and 2 bathrooms custom designed, beautiful balcony space, centrally located in the heart of Rego Park, steps to shopping, restaurants and subways, 20 min to Manhattan, pet friendly... a must see if you are in the market. Park City Estates is a village-style community designed for efficiency, recreation, and comfortable living. Call for a viewing.</p>
+
+
+
+          <div class="addressap">
+            <!-- Appartment Address  -->
+            <p>61-35 98th St #12K, Rego Park, NY 11374</p>
+          </div>
+
+
+          <div class="price left">
+            <!-- Appartment Price  -->
+            <p>$669,000</p>
+          </div>
+        </div>
+
+        <style>
+          .col-13 {
+            position: relative;
+            text-align: left;
+            height: 500px;
+            width: 600px;
+          }
+
+          .col-15 {
+            margin-top: 2em;
+            position: relative;
+            left: 20px;
+          }
+
+          .col-13 h3 {
+            margin-top: 0.5em;
+            margin-left: 0.3em;
+          }
+
+          .col-13 p {
+            margin-left: 0.9em;
+          }
+
+
+          .fa-ul li {
+            display: block;
+            float: left;
+            width: 250px;
+            /* adjust */
+            height: 150px;
+            /* adjust */
+            padding: 2px;
+            /*adjust*/
+            margin-bottom: -7em;
+
+            list-style-image: url("https://loremicon.com/grad/15/15/98708662/png")
+          }
+
+          .addressap {
+            font-size: 18px;
+            color: #023047;
+            font-weight: 700;
+          }
+
+          .slide-back {
+            position: absolute;
+            left: 13em;
+            top: 25em;
+
+          }
+
+          .slide-next {
+            position: absolute;
+            left: 16em;
+            top: 25em;
+
+
+          }
+
+          .slide-back img {
+            width: 2em;
+          }
+
+          .slide-next img {
+            width: 2em;
+
+          }
+
+          .slide-back img:hover {
+            opacity: 0.6;
+          }
+
+          .slide-next img:hover {
+            opacity: 0.6;
+          }
+
+          .rectangle {
+            position: absolute;
+            left: 10.7em;
+            top: 24.5em;
+            height: 50px;
+            width: 160px;
+            border-radius: 30px;
+            background-color: white;
+            opacity: 0.9;
+            box-shadow: 2px 11px 15px 3px Black;
+          }
+        </style>
+
+        <div class="row">
+          <div class="col-14 col-lg-6">
+            <h3>Rental facts and features<br></h3>
+
+            <ul class="fa-ul">
+              <li><span class="material-icons-outlined"><b> Bedrooms: </b> 2</li>
+              <li><span class="material-icons-outlined"><b>Bathrooms:</b> 2</li>
+                <li><span class="material-icons-outlined"><b>Full bathrooms: </b> 2</li>
+              <li><span class="material-icons-outlined"><b>Area:</b> 1,000 sqft</li>
+              <li><span class="material-icons-outlined"><b> New construction: </b> No</li>
+              <li><span class="material-icons-outlined"><b>Type:</b> Cooperative</li>
+              <li><span class="material-icons-outlined"><b>Region:</b> Rego Park</li>
+              <li><span class="material-icons md-36"></span><b>Cooling:</b> No data</li>
+              <li><span class="fa-li"><i class="fas fa-dragon"></i></i></span><b>Heating:</b> No data</li>
+              <li><span class="material-icons-outlined"><b>Parking:</b> No data</li>
+              <li><span class="material-icons-outlined"><b>Appliances included:</b> Dishwasher</li>
+              <li><span class="material-icons-outlined"><b>Community features:</b> Doorman</li>
+              <li><span class="material-icons-outlined"><b>Has HOA: </b>Yes </li>
+
+
+
+            </ul>
+
+          </div>
+          <div class="col-15 col-lg-6 statistic-wrapper">
+            <div class="mapouter">
+              <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=61-35%2098th%20St%20,%20Rego%20Park,%20NY%2011374&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no"
+                  marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/">divi discount</a><br>
+                <style>
+                  .mapouter {
+                    position: relative;
+                    text-align: right;
+                    height: 500px;
+                    width: 600px;
+                  }
+                </style><a href="https://www.embedgooglemap.net">google make your own map</a>
+                <style>
+                  .gmap_canvas {
+                    overflow: hidden;
+                    background: none !important;
+                    height: 500px;
+                    width: 600px;
+                  }
+                </style>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="emailus" class="emailus">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h5>CONTACT US</h5>
+          <h2>Get in Touch</h2>
+          <p> let's set up your tour</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-lg-6 email">
+          <input placeholder="Your email" type="email" id="email" pattern=".+@globex.com" size="30" required>
+        </div>
+        <div class="col-12 col-lg-6 email">
+          <input placeholder="Subject" type="subject" id="subject" size="30" required>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 message">
+          <textarea id="message" name="message" rows="5" cols="1">Message here...</textarea>
+          <button class="search-btn right send-message-btn"><a href="mailto:someone@example.com">Send Message</a></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!------------------------------------------------ APPARTMENTS SECTION -->
+  <section id="appartments" class="appartments">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2>Appartments For Rent and Sale for You</h2>
+        </div>
+
+      </div>
+      <div class="row">
+        <!-- Appartment  -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="appartment-box">
+            <div class="appartment-image">
+              <!-- Appartment Image  -->
+              <img src="images/app1/1.png" style="object-position: 30% 40%;" alt="">
+            </div>
+            <div class="add-image-info flex-center">
+              <p>For Sale</p>
+            </div>
+            <div class="appartment-info">
+              <div class="appartment-title">
+                <!-- Appartment Address  -->
+                <p>97-07 63rd Rd #3, Rego Park, NY 11374</p>
+              </div>
+              <div class="appartment-details">
+                <div class="price left">
+                  <!-- Appartment Price  -->
+                  <p>$529,000</p>
+                </div>
+                <div class="bedrooms right flex-center">
+                  <img src="images/bed.svg" class="left" alt="">
+                  <!-- Appartment Number Of Bedrooms  -->
+                  <p class="left">3 BD</p>
+                </div>
+                <div class="bathrooms right flex-center">
+                  <img src="images/shower.svg" class="left" alt="">
+                  <!-- Appartment Number of Bathrooms  -->
+                  <p class="left">2 BA</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Appartment  -->
+        <div class="col-12 col-md-6 col-lg-4">
+
+          <div class="appartment-box">
+            <div class="appartment-image">
+              <!-- Appartment Image  -->
+              <img src="images/app2/1.png" alt="">
+            </div>
+            <div class="add-image-info flex-center">
+              <p>For Rent</p>
+              <a href="https://www.laguardia.edu/new-media-technology/" class="card-link">
+            </div>
+            <div class="appartment-info">
+              <div class="appartment-title">
+                <!-- Appartment Address  -->
+                <p>61-15 98th St APT 16N, Rego Park, NY 11374</p>
+              </div>
+              <div class="appartment-details">
+                <div class="price left">
+                  <!-- Appartment Price  -->
+                  <p>$1,550</p>
+                </div>
+                <div class="bedrooms right flex-center">
+                  <img src="images/bed.svg" class="left" alt="">
+                  <!-- Appartment Number Of Bedrooms  -->
+                  <p class="left">0 BD</p>
+                </div>
+                <div class="bathrooms right flex-center">
+                  <img src="images/shower.svg" class="left" alt="">
+                  <!-- Appartment Number of Bathrooms  -->
+                  <p class="left">1 BA</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          </a>
+        </div>
+        <!-- Appartment  -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="appartment-box">
+            <div class="appartment-image">
+              <!-- Appartment Image  -->
+              <img src="images/app3/1.png" style="object-position: 30% 40%;" alt="">
+            </div>
+            <div class="add-image-info flex-center">
+              <p>For Sale</p>
+            </div>
+            <div class="appartment-info">
+              <div class="appartment-title">
+                <!-- Appartment Address  -->
+                <p>61-35 98th St #12K, Rego Park, NY 11374</p>
+              </div>
+              <div class="appartment-details">
+                <div class="price left">
+                  <!-- Appartment Price  -->
+                  <p>$669,000</p>
+                </div>
+                <div class="bedrooms right flex-center">
+                  <img src="images/bed.svg" class="left" alt="">
+                  <!-- Appartment Number Of Bedrooms  -->
+                  <p class="left">2 BD</p>
+                </div>
+                <div class="bathrooms right flex-center">
+                  <img src="images/shower.svg" class="left" alt="">
+                  <!-- Appartment Number of Bathrooms  -->
+                  <p class="left">2 BA</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+    </div>
+    </div>
+  </section>
+
+
+
+
+  <!------------------------------------------------ FOOTER SECTION -->
+  <footer id="contact">
+    <div class="container">
+      <div class="row footer-top">
+        <div class="col-12 col-md-6">
+          <!-- Logo -->
+          <a href="../../index.html#home"><img src="images/ecrpllc-blanco.svg" alt="logo" style=" display: block;margin-left: 80%; margin-right: 80%; width: 200px; height: 200px;"></a>
+        </div>
+      </div>
+      <div class="row footer-bottom">
+        <div class="col-sm-12 col-md-4 footer-logo">
+          <h4>East Coast Realty Partners LLC</h4>
+          <p>© 2022 - East Coast Realty Partners LLC</p>
+        </div>
+        <div class="col-sm-3 col-md-2 footer-column">
+          <h5>HOME</h5>
+          <li><a href="../../index.html#home">Home</a></li>
+          <li><a href="../../index.html#agents">Agents</a></li>
+        </div>
+        <div class="col-sm-3 col-md-2 footer-column">
+          <h5>COMPANY</h5>
+          <li><a href="../../index.html#about">About Us</a></li>
+          <li><a href="../../index.html#emailus">Email Us</a></li>
+        </div>
+        <div class="col-sm-3 col-md-2 footer-column">
+          <h5>PRODUCT</h5>
+          <li><a href="../../index.html#appartments">Appartment</a></li>
+          <li><a href="https://www.zillow.com/profile/lionell6">Zillow</a></li>
+        </div>
+        <div class="col-sm-3 col-md-2 footer-column">
+          <h5>SERVICES</h5>
+          <li><a href="../../index.html#services">Renting</a></li>
+          <li><a href="../../index.html#services">Selling</a></li>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Scripts -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+  <!-- Scripts Ends -->
+</body>
+
+</html>
