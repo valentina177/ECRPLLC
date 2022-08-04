@@ -956,4 +956,61 @@ footer {
     10. RESPONSIVE
 -------------------------------------------------------------*/
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (max-width: 992px) {
+@media (min-width:768px) {
+  .toggle-menu {
+    display: none;
+  }
+
+  .nav-menu {
+    display: flex;
+  }
+
+  .nav-menu li {
+    display: inline;
+    margin-right: 2em;
+  }
+
+  .layout {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 1em;
+  }
+
+  #menu {
+    display: flex;
+    position: static;
+    background-color: transparent;
+  }
+
+
+
+  .menubar li {
+    display: inline-block;
+  }
+
+  .menubar a {
+    border: none;
+    color: #660708;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0 1em;
+  }
+
+
+
+  .search-programs li {
+    display: inline-block;
+    min-width: 12em;
+  }
+
+  .search-programs li li {
+    display: block;
+    margin-right: 2em;
+  }
+
+  .search-programs li ul {
+    position: absolute;
+  }
+
+
+}/*closing @media query*/
